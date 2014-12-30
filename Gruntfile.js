@@ -159,10 +159,7 @@ module.exports = function(grunt) {
 				src: '<%= dirs.tmp %>/angular.<%= cfg.filename %>.js',
 				dest: '<%= dirs.dest %>/angular.<%= cfg.filename %>.js',
 				deps: {
-					'default': ['angular'],
-					amd: ['angular'],
-					cjs: ['angular'],
-					global: ['angular']
+					amdWebGlobal: ['angular'],
 				}
 			}
 		}
